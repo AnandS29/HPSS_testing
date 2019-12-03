@@ -1,0 +1,1 @@
+fallocate -l 100M `hostname`.h5
