@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH --qos=debug
+#SBATCH --time=00:05:00
+#SBATCH --nodes=2
+#SBATCH --constraint=knl
+
+start=`date +%s`
+end=`date +%s`
+
+srun -n 2 sh create.sh
+srun -n 2 timeout 1m sh save_hpss.sh || sh not_saved.sh
+srun -n 2 sh check_saved.sh
+
+end=`date +%s`
+
+
+runtime=$((end-start))
+echo $runtime

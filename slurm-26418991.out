@@ -1,0 +1,77 @@
+fallocate: fallocate failed: Operation not supported
+fallocate: fallocate failed: Operation not supported
+srun: error: nid02516: task 0: Exited with exit code 1
+srun: Terminating job step 26418991.0
+srun: error: nid02519: task 1: Exited with exit code 1
+save_hpss.sh: line 1: syntax error near unexpected token `then'
+save_hpss.sh: line 1: `iif [ -f "`hostname`.h5" ]; then'
+save_hpss.sh: line 1: syntax error near unexpected token `then'
+save_hpss.sh: line 1: `iif [ -f "`hostname`.h5" ]; then'
+srun: error: nid02519: task 1: Exited with exit code 2
+srun: Terminating job step 26418991.1
+srun: error: nid02516: task 0: Exited with exit code 2
+Could not save nid02516.h5
+***********************************************************************
+*            * * *  NOTICE TO USERS  * * *                            *
+*                                                                     *
+*   This computer is a Federal computer system and is the property of *
+*   the United States Government.  It is for authorized use only.     *
+*   Users (authorized or unauthorized) have no explicit or implicit   *
+*   expectation of privacy.                                           *
+*                                                                     *
+*   Any or all uses of this system and all files on this system may   *
+*   be intercepted, monitored, recorded, copied, audited, inspected,  *
+*   and disclosed to authorized site, Department of Energy, and law   *
+*   enforcement personnel, as well as authorized officials of other   *
+*   agencies both domestic and foreign.  By using this system, the    *
+*   user consents to such interception, monitoring, recording,        *
+*   copying, auditing, inspection and disclosure at the discretion    *
+*   of authorized site or Department of Energy personnel.             *
+*                                                                     *
+*   Unauthorized or improper use of this system may result in         *
+*   administrative disciplinary action and civil and criminal         *
+*   penalties.  BY CONTINUING TO USE THIS SYSTEM YOU INDICATE YOUR    *
+*   AWARENESS OF AND CONSENT TO THESE TERMS AND CONDITIONS OF USE.    *
+*                                                                     *
+*   LOG OFF IMMEDIATELY IF YOU DO NOT AGREE TO THE CONDITIONS STATED  *
+*   IN THIS WARNING.                                                  *
+*                                                                     *
+***********************************************************************
+*              NERSC HPSS User SYSTEM (archive.nersc.gov)             *
+***********************************************************************
+Username: asranjan  UID: 78256  Acct: 78256(78256) Copies: 1 Firewall: off [hsi.4.0.1.3.p2 Thu Jul 18 16:45:40 PDT 2019][V4.0.1.3_2014_01_15.04] 
+EOF detected on TTY - ending HSI session
+check_saved.sh: line 2: cd: testing: No such file or directory
+nid02516.h5 was saved
+***********************************************************************
+*            * * *  NOTICE TO USERS  * * *                            *
+*                                                                     *
+*   This computer is a Federal computer system and is the property of *
+*   the United States Government.  It is for authorized use only.     *
+*   Users (authorized or unauthorized) have no explicit or implicit   *
+*   expectation of privacy.                                           *
+*                                                                     *
+*   Any or all uses of this system and all files on this system may   *
+*   be intercepted, monitored, recorded, copied, audited, inspected,  *
+*   and disclosed to authorized site, Department of Energy, and law   *
+*   enforcement personnel, as well as authorized officials of other   *
+*   agencies both domestic and foreign.  By using this system, the    *
+*   user consents to such interception, monitoring, recording,        *
+*   copying, auditing, inspection and disclosure at the discretion    *
+*   of authorized site or Department of Energy personnel.             *
+*                                                                     *
+*   Unauthorized or improper use of this system may result in         *
+*   administrative disciplinary action and civil and criminal         *
+*   penalties.  BY CONTINUING TO USE THIS SYSTEM YOU INDICATE YOUR    *
+*   AWARENESS OF AND CONSENT TO THESE TERMS AND CONDITIONS OF USE.    *
+*                                                                     *
+*   LOG OFF IMMEDIATELY IF YOU DO NOT AGREE TO THE CONDITIONS STATED  *
+*   IN THIS WARNING.                                                  *
+*                                                                     *
+***********************************************************************
+*              NERSC HPSS User SYSTEM (archive.nersc.gov)             *
+***********************************************************************
+Username: asranjan  UID: 78256  Acct: 78256(78256) Copies: 1 Firewall: off [hsi.4.0.1.3.p2 Thu Jul 18 16:45:40 PDT 2019][V4.0.1.3_2014_01_15.04] 
+EOF detected on TTY - ending HSI session
+check_saved.sh: line 2: cd: testing: No such file or directory
+nid02519.h5 was saved
