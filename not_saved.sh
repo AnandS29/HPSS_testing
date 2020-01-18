@@ -1,1 +1,0 @@
-echo "Could not save `hostname`.h5"

@@ -1,18 +1,21 @@
 #!/bin/bash
-#SBATCH --qos=debug
-#SBATCH --time=00:05:00
-#SBATCH --nodes=2
+#SBATCH --qos=regular
+#SBATCH --time=01:00:00
+#SBATCH --nodes=1
 #SBATCH --constraint=knl
 
-start=`date +%s`
-end=`date +%s`
+jobId=26721296_19
+echo jobId:
+echo $jobId
 
-srun -n 2 sh create.sh
-srun -n 2 timeout 1m sh save_hpss.sh || sh not_saved.sh
-srun -n 2 sh check_saved.sh
+start=`date +%s`
+
+srun -n 1 sh save_hpss.sh $jobId
 
 end=`date +%s`
 
 
 runtime=$((end-start))
+
+echo total_time:
 echo $runtime

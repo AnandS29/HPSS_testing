@@ -4,13 +4,17 @@
 #SBATCH --nodes=1
 #SBATCH --constraint=knl
 
-jobId=26721296_19
+jobId=$1 #27237636
+cell=$2 #L4_ChC_cNAC187_1
 echo jobId:
 echo $jobId
 
+echo cell:
+echo $cell
+
 start=`date +%s`
 
-srun -n 1 sh save_hpss.sh $jobId
+srun -n 1 sh save_hpss.sh $jobId $cell
 
 end=`date +%s`
 

@@ -5,7 +5,7 @@ set -o errexit ;  # exit if any statement returns a non-true return value
 
 jobId=$1
 
-dataPath=/global/cscratch1/sd/vbaratha/izhi/runs/
+dataPath=/global/cscratch1/sd/vbaratha/DL4neurons/runs
 hpssPath=neuronTest
 num_files=3200
 file_len=67058744
